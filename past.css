@@ -1,0 +1,102 @@
+/*fonts defined*/
+@font-face {
+    font-family:"monteserrat" ;
+    src: url(../techboard.html/font/Montserrat-Bold.ttf) format(truetype
+    );
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+
+}
+
+/*reset*/
+*{
+    margin: 0%;
+    padding: 0%;
+}
+/*desktop style*/
+header img{
+    display: block;
+    margin: 75px 0px 0px 50px;
+}
+body{
+    background-color: black;
+}
+span{
+    color: blueviolet;
+}
+h1,p,a{
+    color: #FFFF;
+    
+}
+h1{
+    font-size: 70px;
+    font-family: "monteserrat";
+    margin-top: 60px;
+    text-align: center;
+   
+}
+p{
+    font-size: 26px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     text-align: center;
+     width: 792px;
+     margin: 24px auto 0;
+    
+    }
+    
+a{
+    font-size: 24px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    background-color: blueviolet;
+    height: 50pt;
+    width: 270pt;
+   display: block;
+   text-align: center;
+   line-height: 65px;
+   border-radius: 50px;
+   margin: 40px auto;
+}
+a:hover{
+    background-color: rgb(90, 25, 151) ;
+}
+
+section img{
+    display: block;
+    margin: auto;
+    width: 792;
+    height: 446;
+   
+}
+/*tablet*/
+@media(max-width:768px){
+    header img{
+        margin: 65px 0 0 60px;
+    }
+    p{
+        width: 648px;
+    } 
+}
+/*cellphone*/
+@media(max-width:375px){
+    header img{
+        margin: 32px 16px 0 0;
+    }
+    h1{
+        font-size: 40px;
+    }
+    p{
+        font-size: 20px;
+        width: 340px;
+    }
+    a{
+        font-size: 20px;
+        width: 251px;
+    }
+    section img{
+        width: 340px;
+        height: 230px;
+    }
+}
+
