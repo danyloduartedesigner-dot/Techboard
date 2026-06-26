@@ -20,10 +20,10 @@ header img{
     margin: 75px 0px 0px 50px;
 }
 body{
-    background-color: rgb(83, 9, 9);
+    background-color: rgb(8, 8, 8);
 }
 span{
-    color: blueviolet;
+    color: #8a2be2;
 }
 h1,p,a{
     color: #FFFF;
@@ -34,6 +34,7 @@ h1{
     font-family: "monteserrat";
     margin-top: 60px;
     text-align: center;
+    line-height: 0.9
    
 }
 p{
@@ -46,10 +47,10 @@ p{
     }
     
 a{
-    font-size: 80px;
+    font-size: 32px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-decoration: none;
-    background-color: rgb(86, 226, 43);
+    background-color: #8a2be2;
     height: 50pt;
     width: 270pt;
    display: block;
